@@ -10,7 +10,7 @@ int main(void)
 {
 	int n, lastd;
 	Srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	lastd = % 10;
 	if (lastd > 5 )
 	{
@@ -26,4 +26,3 @@ int main(void)
 	}
 	return (0);
 }
-
